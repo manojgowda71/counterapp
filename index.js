@@ -6,6 +6,10 @@ function increment() {
     count += 1
     countEl.textContent = count
 }
+function decrement(){
+    count--;
+    countEl.textContent = count    
+}
 
 function save() {
     let countStr = count + " - "
